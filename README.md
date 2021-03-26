@@ -2,9 +2,10 @@
 A simple Chrome extension to warn users when they visit a potential scam site in the Cardano ecosystem.
 
 ## Credits
-Created and maintained by [Calvin Koepke](https://twitter.com/cjkoepke). Contributors:
+Created and maintained by [Calvin Koepke](https://twitter.com/cjkoepke). Contributors & supporters:
 
 - [jrafsantos](https://github.com/jrafsantos)
+- [cryptogab](https://twitter.com/CardanoGab)
 ## Donate
 There are costs associated with this extension, both in terms of maintenance and time. If you're feeling generous, or the ADA Scam Alert has saved you from a scam, any donations are appreciated.
 
