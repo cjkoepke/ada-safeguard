@@ -1,0 +1,18 @@
+{
+  "name": "ADA Scam Alert",
+  "description": "A simple Chrome extension to warn users when they visit a potential scam site in the Cardano ecosystem.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "homepage_url": "https://calvinkoepke.com",
+  "default_locale": "en",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/content.js"]
+    }
+  ]
+}

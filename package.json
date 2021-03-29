@@ -1,0 +1,33 @@
+{
+  "name": "ada-scam-alert",
+  "version": "1.0.0",
+  "description": "A simple Chrome extension to warn users when they visit a potential scam site in the Cardano ecosystem.",
+  "repository": "git@github.com:cjkoepke/ada-scam-alert.git",
+  "author": "Calvin Koepke <hello@calvinkoepke.com>",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode=development --watch",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/chrome": "0.0.75",
+    "@types/react": "^16.7.8",
+    "@types/react-dom": "^16.0.11",
+    "css-loader": "^1.0.1",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.1.6",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@react-firebase/database": "^0.3.11",
+    "firebase": "^8.3.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
