@@ -4,18 +4,18 @@ A simple Chrome extension to warn users when they visit a potential scam site in
 ## Roadmap
 
 **Phase 1**
-[ ] Build database of scam sites.
-[ ] Build database of approved sites.
-[ ] Build in easy donation support.
-[ ] Release beta version of extension.
-[ ] Build official website.
-[ ] Release production version of extension.
-[ ] List on Chrome Store.
+- [ ] Build database of scam sites.
+- [ ] Build database of approved sites.
+- [ ] Build in easy donation support.
+- [ ] Release beta version of extension.
+- [ ] Build official website.
+- [ ] Release production version of extension.
+- [ ] List on Chrome Store.
 
 **Phase 2**
-[ ] Add support for user-reporting.
-[ ] Add support for delisting requests (false flagging).
-[ ] Add automated alerts to Twitter account.
+- [ ] Add support for user-reporting.
+- [ ] Add support for delisting requests (false flagging).
+- [ ] Add automated alerts to Twitter account.
 
 ## Credits
 Created and maintained by [Calvin Koepke](https://twitter.com/cjkoepke). Contributors & supporters:
