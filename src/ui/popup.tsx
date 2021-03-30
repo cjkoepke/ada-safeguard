@@ -1,24 +1,18 @@
-import * as React from "react"
-import * as ReactDOM from "react-dom"
-import firebase from 'firebase/app';
-import 'firebase/database';
-import { FirebaseDatabaseProvider, FirebaseDatabaseNode } from '@react-firebase/database';
+import * as React from "react";
+import * as ReactDOM from "react-dom";
 
-import { config } from '../firebase/config';
+import '../styles/popup.css';
 
-const Welcome = () => (
-    <FirebaseDatabaseNode path="/scamList/domains" orderByKey>
-        {({ value }) => {
-            return value
-                ? <p>Loading...</p>
-                : <ul>{value.map((domain: string) => <li>{domain}</li>)}</ul>
-        }}
-    </FirebaseDatabaseNode>
-);
+const Welcome = () => {
+  return (
+    <>
+      <h1>✅ ADA Scam Alert</h1>
+      <p>You're good! We did not detect this site as a scam. You can see the <a href="#">full list of scam sites here</a>.</p>
+    </>
+  );
+};
 
 ReactDOM.render(
-    <FirebaseDatabaseProvider firebase={firebase} {...config}>
-        <Welcome />
-    </FirebaseDatabaseProvider>,
-    document.getElementById('root')
-)
+    <Welcome />,
+  document.getElementById("root")
+);

@@ -1,11 +1,26 @@
 body {
-    min-width: 400px;
-    min-height: 400px;
+    background: #191A32;
+    color: #999CAD;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    line-height: 1.625;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
 
-.popup-padded {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+#root {
+    min-width: 400px;
+    min-height: 400px;
+    padding: 40px;
+}
+
+h1 {
+    border-bottom: 2px solid #999CAD;
+    color: #fff;
+    font-weight: 900;
+    margin: 0 0 1.3em;
+}
+
+a {
+    color: #33E6F6;
 }

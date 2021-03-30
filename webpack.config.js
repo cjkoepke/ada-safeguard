@@ -4,17 +4,18 @@ module.exports = {
     devtool: "inline-source-map",
 
     entry: {
+        background: './src/app/background.ts',
         content: './src/app/content.ts',
         popup: './src/ui/popup.tsx',
     },
 
     output: {
-        path: path.resolve(__dirname, 'dist/js'),
+        path: path.resolve(__dirname, 'dist'),
         filename: '[name].js'
     },
 
     resolve: {
-        extensions: [".ts", ".tsx", ".js"]
+        extensions: [".ts", ".tsx", ".js", ".css"]
     },
 
     module: {
