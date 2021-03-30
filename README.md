@@ -1,4 +1,4 @@
-# ada-scam-alert
+# ADA SafeGuard
 A simple Chrome extension to warn users when they visit a potential scam site in the Cardano ecosystem.
 
 ## Credits
